@@ -20,7 +20,7 @@
   $color: #50c8c9;
   $color-2: #ffbe57;
 {% elsif site.theme == "mon" %}
-  $color: #d26e2b;
+  $color: #e38126;
   $color-2: #604839;
 {% else %}
   $color: #6690b9;
@@ -97,7 +97,7 @@
     }
     &.btn-outline-medium {
       border: 2px solid darken($color, 15%);
-      color: darken($color, 15%);
+      color: darken($color, 25%);
     }
 }
 .btn-outline:hover {
