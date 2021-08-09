@@ -188,6 +188,15 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
+.header video {
+ object-fit: cover;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ position: fixed;
+ z-index: -1;
+}
 /* ======= Promo Section ======= */
 .promo {
   background: $color;
