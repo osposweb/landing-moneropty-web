@@ -4,9 +4,9 @@
 #REQUIRED
 org_name: MoneroPTY
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
-  MoneroPTY coin - Comprar y Vender Moneros
+  Compra / Venta de Monero
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
-  MoneroPTY coin - Comprar y Vender Moneros Criptomonedas en Panama.
+  MoneroPTY - Comprar y Vender Moneros Criptomonedas en Panama.
 
 #OPTIONAL
 #Non US-address support coming soon
@@ -21,9 +21,9 @@ org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
   (123) 456-7890
 
 telegram_username: true
-twitter_username: true
-facebook_username: true
-instagram_username: true
+twitter_username: false
+facebook_username: false
+instagram_username: false
 #SOCIAL MEDIA
 org_telegram_username: moneropty
 org_twitter_username: moneropty
