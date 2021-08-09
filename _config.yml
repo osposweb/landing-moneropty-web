@@ -6,7 +6,7 @@ org_name: MoneroPTY
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
   Compra / Venta de Monero
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
-  MoneroPTY - Comprar y Vender Moneros Criptomonedas en Panama.
+  MoneroPTY -  Trading Criptomonedas Monero en Panama
 
 #OPTIONAL
 #Non US-address support coming soon
@@ -37,7 +37,7 @@ cdnable: true
 
 #THEME
 #Select one of the five color schemes (default, one, two, three, or four)
-theme: two
+theme: four
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
 
