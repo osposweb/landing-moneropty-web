@@ -6,3 +6,21 @@
 <script type="text/javascript" src="assets/js/main.js"></script>
 {% else %}
 {% endif %}
+ <script>
+        fetch('https://min-api.cryptocompare.com/data/price?fsym=XMR&tsyms=VES,USD,EUR')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("pricexmr");
+                var div = document.createElement("div");
+                div.innerHTML = 'USD '+data.USD
+                mainContainer.appendChild(div);
+        }
+ </script>
